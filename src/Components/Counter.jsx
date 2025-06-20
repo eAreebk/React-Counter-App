@@ -15,7 +15,7 @@ function Counter(){
 
         <div className="buttons">
               <button className="btn" style={{backgroundColor: 'green'}} onClick={() => setCount(count + 1)}>Increament</button>
-              <button className="btn" style={{backgroundColor: 'red'}} onClick={() => count > 0 && setCount(count - 1)}>Decreamnet</button>
+              <button className="btn" style={{backgroundColor: 'red'}} onClick={() => count > 0 && setCount(count - 1)}>Decrement</button>
               <button className="btn" style={{backgroundColor: 'Teal'}} onClick={() => setCount(count = 0)}>Reset</button>
               <button className="btn" style={{backgroundColor: 'blue'}} onClick={() => { let n = +prompt("Write Number"); setCount(n < 0 ? -n : n); }}>Write Number</button>
         </div>
