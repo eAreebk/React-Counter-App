@@ -42,7 +42,9 @@ body {
 
 
 button {
-  padding: 10px 20px;
+  width: 110px;
+  height: 40px;
+  padding: 10px 10px;
   background-color: #007bff;  /* blue */
   color: white;
   border: none;
@@ -50,6 +52,7 @@ button {
   font-size: 12px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+   text-align: center;
 }
 
 .btn:hover {
@@ -61,7 +64,7 @@ button {
 
 .buttons{
   display: flex;
-  margin: 239px 0 0 12px;
+  margin: 239px 0 0 8px;
   gap: 10px;
 }
 
@@ -97,6 +100,7 @@ button {
     align-items: center;
     margin: 360px auto;
     gap: 15px;
+    text-align: center;
   }
 
   .number {
