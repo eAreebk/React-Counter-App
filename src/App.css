@@ -79,14 +79,14 @@ button {
     }
 
   .led {
-    width: 80%;
+    width: 90%;
     height: auto;
     margin: 20px auto;
     display: block;
   }
 
   .screen {
-    width: 75%;
+    width: 85%;
     height: auto;
     margin: -180px auto;
     font-size: 8px;
